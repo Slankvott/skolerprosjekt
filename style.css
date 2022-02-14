@@ -5,9 +5,12 @@
 
 }
 
+body {
+    background-image: url(background.jpg);
+}
+
 p {
     text-align: center;
     font-size: x-large;
-    background-image: url("background.jpg");
 
 }
