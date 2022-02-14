@@ -11,7 +11,11 @@ p {
 
 }
 
-body {
+body, html {
+    height: 100%;
+}
+
+.bg {
     /* The image used */
     background-image: url("unnamed.jpg");
   
@@ -19,8 +23,7 @@ body {
     height: 100%;
   
     /* Center and scale the image nicely */
-    position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 2100px;
+    background-size: cover;
   }
